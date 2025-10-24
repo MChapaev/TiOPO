@@ -1,9 +1,10 @@
 ﻿using LR2_Debug_and_Trace;
+using LR2_Debug_and_Trace.StartupExtensions;
 
 new Startup()
-    //TODO: .InitTask1()
+    .InitializeTask1()
     .Run()
     .PrintResult()
-    //TODO: .InitTask2()
+    .InitializeTask2()
     .Run()
     .PrintResult();

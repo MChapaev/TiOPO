@@ -7,6 +7,8 @@ namespace LR2_Debug_and_Trace
     {
         private ITask _task = null!;
 
+        internal void SetTask(ITask task) => _task = task;
+
         public Startup Run()
         {
             Debug.Assert(_task != null);
