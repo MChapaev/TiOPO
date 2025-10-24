@@ -32,6 +32,8 @@ FileContentIndex/
 TestStore/
 DocumentLayout.json
 CopilotIndices/
+DocumentLayout.backup.json
+DesignTimeBuild/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
