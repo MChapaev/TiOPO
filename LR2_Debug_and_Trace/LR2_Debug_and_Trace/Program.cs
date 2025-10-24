@@ -2,7 +2,7 @@
 using LR2_Debug_and_Trace.StartupExtensions;
 
 new Startup()
-    .InitializeTask1()
+    .InitializeTask1(x => Math.Log(1 + x) / x, .1, 1)
     .Run()
     .PrintResult()
     .Whitespace()
