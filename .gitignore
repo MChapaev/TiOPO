@@ -27,6 +27,10 @@ bld/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+*.suo
+FileContentIndex/
+TestStore/
+DocumentLayout.json
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
