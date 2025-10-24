@@ -16,7 +16,7 @@ namespace LR2_Debug_and_Trace
             return this;
         }
 
-        public Startup PrintResult(string message = "Task done")
+        public Startup PrintResult(string message = "Задача выполнена. Результат")
         {
             Console.WriteLine($"{message}: {_task.Result()}");
             return this;
