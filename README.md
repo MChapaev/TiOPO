@@ -1,4 +1,4 @@
-# 🧩 My .NET Console Application
+# 🧩 TiOPO .NET Console Application
 
 A  .NET console application built using **.NET 8.0**.  
 Project for practical assignments in the course **Software Testing and Debugging**
