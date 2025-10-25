@@ -6,16 +6,16 @@
     {
         protected double Result { get; set; }
 
-        public double GetResult()
-        {
-            Trace.Unindent();
-            return Result;
-        }
-
         public virtual void Run()
         {
             InitializeTrace();
             CalculateResult();
+        }
+
+        public double GetResult()
+        {
+            Trace.Unindent();
+            return Result;
         }
 
         protected void InitializeTrace()
