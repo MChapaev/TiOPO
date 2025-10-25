@@ -6,6 +6,6 @@ new Startup()
     .Run()
     .PrintResult()
     .Whitespace()
-    .InitializeTask2()
+    .InitializeTask2(10)
     .Run()
     .PrintResult();
