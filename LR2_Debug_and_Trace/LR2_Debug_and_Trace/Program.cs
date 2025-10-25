@@ -8,4 +8,4 @@ new Startup()
     .Whitespace()
     .InitializeTask2(10)
     .Run()
-    .PrintResult();
+    .PrintResult("Сумма факториала");
