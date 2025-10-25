@@ -3,19 +3,18 @@ using LR2_Debug_and_Trace.Abstractions;
 
 namespace LR2_Debug_and_Trace.Tasks
 {
-    internal class Task1 : ITask
+    internal class Task1 : PracticeTask
     {
-        private double 
+        protected Func<double, double> _function;
+
+        private double
             _a,
             _b,
-            _epsilon = 0.0001,
-            _result;
+            _epsilon = 0.0001;
 
-        private int 
+        private int
             _firstNameIndex = 13, // M
             _lastNameIndex = 3; // C
-
-        private Func<double, double> _function;
 
         public Task1(Func<double, double> function, double a, double b)
         {
@@ -24,32 +23,9 @@ namespace LR2_Debug_and_Trace.Tasks
             _b = b;
         }
 
-        private static void InitializeTrace()
+        protected override void CalculateResult()
         {
-            Trace.Listeners
-                .Add(new TextWriterTraceListener(Console.Out));
-            StreamWriter txt = 
-                new StreamWriter(
-                    new FileStream("trace.txt", FileMode.OpenOrCreate));
-
-            Trace.Listeners.Add(new TextWriterTraceListener(txt));
-            Trace.AutoFlush = true;
-            Trace.Indent();
-
-            Trace.TraceInformation("Начало трассировки задачи 1");
-            Trace.WriteLine(String.Format("Дата : {0}", DateTime.Now));
-        }
-
-        public void Run()
-        {
-            InitializeTrace();
-            _result = ComputeIntegral();
-        }
-
-        public double Result()
-        {
-            Trace.Unindent();
-            return _result;
+            Result = ComputeIntegral();
         }
 
         private double ComputeIntegral()

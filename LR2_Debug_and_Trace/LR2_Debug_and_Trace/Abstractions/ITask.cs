@@ -3,6 +3,6 @@
     public interface ITask
     {
         void Run();
-        double Result();
+        double GetResult();
     }
 }
