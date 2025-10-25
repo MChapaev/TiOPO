@@ -16,7 +16,7 @@ namespace LR2_Debug_and_Trace.Tasks
             _firstNameIndex = 13, // M
             _lastNameIndex = 3; // C
 
-        public Task1(Func<double, double> function, double a, double b)
+        public Task1(Func<double, double> function, double a, double b, string taskName) : base(taskName)
         {
             _function = function;
             _a = a;

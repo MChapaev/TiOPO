@@ -8,7 +8,7 @@ namespace LR2_Debug_and_Trace.Tasks
         private int _from = 1,
             _to;
 
-        public Task2(int to)
+        public Task2(int to, string taskName) : base(taskName)
         {
             _to = to;
         }

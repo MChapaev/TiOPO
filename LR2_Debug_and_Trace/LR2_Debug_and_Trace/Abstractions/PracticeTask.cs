@@ -4,7 +4,18 @@
 
     public abstract class PracticeTask : ITask
     {
+        private string _taskName = null!;
+
         protected double Result { get; set; }
+
+        StreamWriter _txt =
+    new StreamWriter(
+        new FileStream("trace.txt", FileMode.OpenOrCreate));
+
+        public PracticeTask(string taskName)
+        {
+            _taskName = taskName;
+        }
 
         public virtual void Run()
         {
@@ -14,26 +25,28 @@
 
         public double GetResult()
         {
-            Trace.Unindent();
+            StopTrace();
             return Result;
         }
 
-        protected void InitializeTrace()
+        private void InitializeTrace()
         {
             Trace.Listeners
                 .Add(new TextWriterTraceListener(Console.Out));
-            StreamWriter txt =
-                new StreamWriter(
-                    new FileStream("trace.txt", FileMode.OpenOrCreate));
-
-            Trace.Listeners.Add(new TextWriterTraceListener(txt));
+            
+            Trace.Listeners.Add(new TextWriterTraceListener(_txt));
             Trace.AutoFlush = true;
             Trace.Indent();
 
-            Trace.TraceInformation("Начало трассировки задачи 1");
+            Trace.TraceInformation($"{_taskName}. Начало трассировки.");
             Trace.WriteLine(String.Format("Дата : {0}", DateTime.Now));
         }
-
+        
+        private void StopTrace()
+        {
+            Trace.Unindent();
+            _txt.Close();
+        }
         protected abstract void CalculateResult();
     }
 }
