@@ -2,7 +2,7 @@
 {
     public static class StringExtensions
     {
-        public static string Trim(this string str)
+        public static string MyTrim(this string str)
         {
             if (str == null) throw new ArgumentNullException(nameof(str));
             if (str.Length < 3) return string.Empty;
