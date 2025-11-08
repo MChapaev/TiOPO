@@ -6,8 +6,9 @@
         {
             if (str == null) throw new ArgumentNullException(nameof(str));
             if (str.Length < 3) return string.Empty;
-            char[] chars = new char[str.Length - 1];
-            for (int i = 1; i < chars.Length; i++) chars[i] = str[i];
+            char[] chars = new char[str.Length - 2];
+            for (int i = 1; i < str.Length - 1; i++)
+                chars[i - 1] = str[i];
             return new string(chars);
         }
     }
