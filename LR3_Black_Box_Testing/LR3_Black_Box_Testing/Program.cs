@@ -1,20 +1,13 @@
 ﻿using LR3_Black_Box_Testing.Abstractions;
 using LR3_Black_Box_Testing.Core;
-using System.Numerics;
 
-// Objects initialization
-ICollection<Vector2> _data = new List<Vector2>()
-{
-    new Vector2(10, 1),
-    new Vector2(10, 2),
-    new Vector2(10, 3),
-};
+int _size = 10;
 
-CheckerController _controller = new TraceCheckerController(new LineChecker(size: 10));
+CheckerController _controller = new TraceCheckerController(new LineChecker(_size));
 
 // Run
 _controller
     .PrintInfo()
-    .SetupData(_data)
+    .SetupData(Vector2Factory.Data(_size))
     .Run()
     .PrintResult();
