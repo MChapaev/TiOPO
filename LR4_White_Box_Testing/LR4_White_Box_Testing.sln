@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36616.10 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR4_White_Box_Testing", "LR4_White_Box_Testing\LR4_White_Box_Testing.csproj", "{43F174EC-A60B-426C-99AE-17BC7661EEDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR_Tests", "LR_Tests\LR_Tests.csproj", "{1ED982BF-4586-4462-A73C-E2DDB7060B86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{43F174EC-A60B-426C-99AE-17BC7661EEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43F174EC-A60B-426C-99AE-17BC7661EEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43F174EC-A60B-426C-99AE-17BC7661EEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED982BF-4586-4462-A73C-E2DDB7060B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED982BF-4586-4462-A73C-E2DDB7060B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED982BF-4586-4462-A73C-E2DDB7060B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED982BF-4586-4462-A73C-E2DDB7060B86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
