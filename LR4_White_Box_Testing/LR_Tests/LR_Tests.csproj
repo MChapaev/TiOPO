@@ -11,4 +11,8 @@
     <PackageReference Include="NUnit" Version="4.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LR4_White_Box_Testing\LR4_White_Box_Testing.csproj" />
+  </ItemGroup>
+
 </Project>
