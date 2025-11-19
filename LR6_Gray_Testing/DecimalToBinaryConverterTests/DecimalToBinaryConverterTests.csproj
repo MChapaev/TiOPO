@@ -13,4 +13,8 @@
     <PackageReference Include="NUnit3TestAdapter" Version="5.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LR6_Gray_Testing\LR6_Gray_Testing.csproj" />
+  </ItemGroup>
+
 </Project>

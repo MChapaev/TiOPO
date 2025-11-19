@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36616.10 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR6_Gray_Testing", "LR6_Gray_Testing\LR6_Gray_Testing.csproj", "{4302DA70-C0ED-469E-AA6B-C5CD52EC9568}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinaryConverterTests", "DecimalToBinaryConverterTests\DecimalToBinaryConverterTests.csproj", "{39C941B4-2C74-4150-9F35-AF1CA97D52F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4302DA70-C0ED-469E-AA6B-C5CD52EC9568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4302DA70-C0ED-469E-AA6B-C5CD52EC9568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4302DA70-C0ED-469E-AA6B-C5CD52EC9568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C941B4-2C74-4150-9F35-AF1CA97D52F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C941B4-2C74-4150-9F35-AF1CA97D52F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C941B4-2C74-4150-9F35-AF1CA97D52F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C941B4-2C74-4150-9F35-AF1CA97D52F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
