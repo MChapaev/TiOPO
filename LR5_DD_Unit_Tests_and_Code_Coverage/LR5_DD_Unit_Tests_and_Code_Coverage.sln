@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR5_DD_Unit_Tests_and_Code_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR3_Black_Box_Testing", "..\LR3_Black_Box_Testing\LR3_Black_Box_Testing\LR3_Black_Box_Testing.csproj", "{ED838AD5-02BA-311C-66C9-C97FA3CA415E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR3_Tests", "LR3_Tests\LR3_Tests.csproj", "{8886F423-D8E9-496A-B938-470BD3683BDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ED838AD5-02BA-311C-66C9-C97FA3CA415E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED838AD5-02BA-311C-66C9-C97FA3CA415E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED838AD5-02BA-311C-66C9-C97FA3CA415E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8886F423-D8E9-496A-B938-470BD3683BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8886F423-D8E9-496A-B938-470BD3683BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8886F423-D8E9-496A-B938-470BD3683BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8886F423-D8E9-496A-B938-470BD3683BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
