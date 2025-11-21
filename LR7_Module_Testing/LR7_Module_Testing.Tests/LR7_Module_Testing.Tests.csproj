@@ -13,4 +13,8 @@
     <PackageReference Include="NUnit3TestAdapter" Version="5.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LR7_Module_Testing\LR7_Module_Testing.csproj" />
+  </ItemGroup>
+
 </Project>
