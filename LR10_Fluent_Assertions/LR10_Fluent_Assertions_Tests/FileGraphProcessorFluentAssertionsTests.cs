@@ -1,13 +1,8 @@
 ﻿using FluentAssertions;
 using LR10_Fluent_Assertions.Core;
-using LR10_Fluent_Assertions.Data.Models;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 
-namespace LR8_Test_Doubles.Tests.FluentAssertions
+namespace LR10_Fluent_Assertions_Tests.FileGraphProcessorFluentAssertionsTests
 {
     [TestFixture]
     public class FileGraphProcessorFluentAssertionsTests
