@@ -5,6 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RunSettingsFilePath>C:\Users\magom\OneDrive\Рабочий стол\ВУЗ\5 семестр\Лабы\ТиОПО\TiOPO\LR12_Black_Box_Library_Testing\LR12_Black_Box_Library_Testing_Tests\bin\Debug\net8.0\fine-code-coverage\coverage-tool-output\LR12_Black_Box_Library_Testing_Tests-fcc-mscodecoverage-generated.runsettings</RunSettingsFilePath>
   </PropertyGroup>
 
   <ItemGroup>
